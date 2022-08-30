@@ -1,15 +1,15 @@
 
 
-package tester.com.utils;
+package Robin.com.utils;
 
-import tester.com.constants.FrameworkConstants;
-import tester.com.driver.DriverManager;
-import tester.com.enums.FailureHandling;
-import tester.com.helpers.CaptureHelpers;
-import tester.com.helpers.Helpers;
-import tester.com.report.AllureManager;
-import tester.com.report.ExtentReportManager;
-import tester.com.report.ExtentTestManager;
+import Robin.com.constants.FrameworkConstants;
+import Robin.com.driver.DriverManager;
+import Robin.com.enums.FailureHandling;
+import Robin.com.helpers.CaptureHelpers;
+import Robin.com.helpers.Helpers;
+import Robin.com.report.AllureManager;
+import Robin.com.report.ExtentReportManager;
+import Robin.com.report.ExtentTestManager;
 import com.google.common.util.concurrent.Uninterruptibles;
 import com.google.zxing.BinaryBitmap;
 import com.google.zxing.LuminanceSource;

@@ -1,13 +1,13 @@
-package tester.com.report;
+package Robin.com.report;
 
-import tester.com.constants.FrameworkConstants;
-import tester.com.driver.DriverManager;
-import tester.com.enums.AuthorType;
-import tester.com.enums.CategoryType;
-import tester.com.utils.ReportUtils;
-import tester.com.utils.BrowserInfoUtils;
-import tester.com.utils.DateUtils;
-import tester.com.utils.IconUtils;
+import Robin.com.constants.FrameworkConstants;
+import Robin.com.driver.DriverManager;
+import Robin.com.enums.AuthorType;
+import Robin.com.enums.CategoryType;
+import Robin.com.utils.ReportUtils;
+import Robin.com.utils.BrowserInfoUtils;
+import Robin.com.utils.DateUtils;
+import Robin.com.utils.IconUtils;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.markuputils.Markup;
@@ -18,7 +18,7 @@ import org.openqa.selenium.TakesScreenshot;
 
 import java.util.Objects;
 
-import static tester.com.constants.FrameworkConstants.*;
+import static Robin.com.constants.FrameworkConstants.*;
 
 public final class ExtentReportManager {
 
@@ -102,7 +102,7 @@ public final class ExtentReportManager {
 
     synchronized public static void addAuthors(AuthorType[] authors) {
         if (authors == null) {
-            ExtentTestManager.getExtentTest().assignAuthor("Tester");
+            ExtentTestManager.getExtentTest().assignAuthor("Robin");
         } else {
             for (AuthorType author : authors) {
                 ExtentTestManager.getExtentTest().assignAuthor(author.toString());

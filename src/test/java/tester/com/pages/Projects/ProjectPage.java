@@ -1,7 +1,7 @@
-package tester.com.pages.Projects;
+package Robin.com.pages.Projects;
 
-import tester.com.pages.CommonPage;
-import tester.com.utils.WebUI;
+import Robin.com.pages.CommonPage;
+import Robin.com.utils.WebUI;
 import org.openqa.selenium.By;
 
 public class ProjectPage extends CommonPage {

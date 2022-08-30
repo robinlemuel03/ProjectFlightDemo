@@ -1,4 +1,4 @@
-package tester.com.config;
+package Robin.com.config;
 
 import org.aeonbits.owner.Config;
 import org.aeonbits.owner.Config.LoadPolicy;

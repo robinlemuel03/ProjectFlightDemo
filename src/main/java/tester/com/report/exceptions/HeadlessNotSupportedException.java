@@ -1,4 +1,4 @@
-package tester.com.report.exceptions;
+package Robin.com.report.exceptions;
 
 public class HeadlessNotSupportedException extends IllegalStateException {
 

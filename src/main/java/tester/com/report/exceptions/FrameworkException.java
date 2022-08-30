@@ -1,5 +1,5 @@
 
-package tester.com.report.exceptions;
+package Robin.com.report.exceptions;
 
 /**
  * FrameworkException extends RuntimeException - because I want to terminate the program when the Exception

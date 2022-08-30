@@ -1,6 +1,6 @@
-import tester.com.driver.DriverManager;
-import tester.com.driver.TargetFactory;
-import tester.com.helpers.PropertiesHelpers;
+import Robin.com.driver.DriverManager;
+import Robin.com.driver.TargetFactory;
+import Robin.com.helpers.PropertiesHelpers;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ThreadGuard;
 import org.testng.annotations.*;

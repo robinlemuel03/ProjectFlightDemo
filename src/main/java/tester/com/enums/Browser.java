@@ -1,4 +1,4 @@
-package tester.com.enums;
+package Robin.com.enums;
 
 public enum Browser {
     CHROME, EDGE, FIREFOX

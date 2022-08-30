@@ -1,11 +1,11 @@
 
 
-package tester.com.report;
+package Robin.com.report;
 
-import tester.com.constants.FrameworkConstants;
-import tester.com.driver.DriverManager;
-import tester.com.enums.Browser;
-import tester.com.utils.BrowserInfoUtils;
+import Robin.com.constants.FrameworkConstants;
+import Robin.com.driver.DriverManager;
+import Robin.com.enums.Browser;
+import Robin.com.utils.BrowserInfoUtils;
 import com.github.automatedowl.tools.AllureEnvironmentWriter;
 import com.google.common.collect.ImmutableMap;
 import io.qameta.allure.Attachment;

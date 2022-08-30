@@ -1,6 +1,6 @@
-package tester.com.pages;
+package Robin.com.pages;
 
-import tester.com.pages.Home.HomePage;
+import Robin.com.pages.Home.HomePage;
 
 public class CommonPage {
 

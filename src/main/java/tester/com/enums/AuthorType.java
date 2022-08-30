@@ -1,8 +1,8 @@
-package tester.com.enums;
+package Robin.com.enums;
 
 /**
  * A Java Enum is a special Java type used to define collections of constants.
  */
 public enum AuthorType {
-    qTester, firstName, LastName
+    qRobin, firstName, LastName
 }

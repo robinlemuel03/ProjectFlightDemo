@@ -1,12 +1,12 @@
-package tester.com.pages.Home;
+package Robin.com.pages.Home;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.interactions.Actions;
-import tester.com.driver.DriverManager;
-import tester.com.utils.WebUI;
+import Robin.com.driver.DriverManager;
+import Robin.com.utils.WebUI;
 
-import static tester.com.utils.WebUI.getJsExecutor;
+import static Robin.com.utils.WebUI.getJsExecutor;
 
 public class HomePage {
     public By roundTripRadiobox = By.id("bkmgFlights_tripTypeSelector_R");

@@ -1,13 +1,13 @@
-package tester.com.testcases;
+package Robin.com.testcases;
 
-import tester.com.common.BaseTest;
-import tester.com.constants.FrameworkConstants;
-import tester.com.driver.DriverManager;
+import Robin.com.common.BaseTest;
+import Robin.com.constants.FrameworkConstants;
+import Robin.com.driver.DriverManager;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
-import tester.com.pages.Home.HomePage;
-import tester.com.utils.WebUI;
+import Robin.com.pages.Home.HomePage;
+import Robin.com.utils.WebUI;
 import org.testng.annotations.Test;
 
 public class HomeTest extends BaseTest {
