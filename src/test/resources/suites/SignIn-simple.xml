@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Regression Tests">
+
+    <test name="Sign In Test">
+        <parameter name="BROWSER" value="chrome"/>
+        <classes>
+            <class name="tester.com.testcases.HomeTest"></class>
+        </classes>
+    </test>
+
+</suite>
